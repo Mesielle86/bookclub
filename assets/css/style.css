@@ -9,3 +9,23 @@ header {
     background-color:yellow;
     
 }
+/* Main content */
+body {
+    background: rosybrown
+}
+/* Footer */
+footer {
+    background-color: aqua;
+    position: fixed;
+    bottom: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+#social {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
