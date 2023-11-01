@@ -39,6 +39,8 @@ header h1 {
 
 body {
     display: flex;
+    font-family: 'Roboto Mono', monospace;
+    
 }
 
 #image {
@@ -49,16 +51,19 @@ body {
     z-index: -1;
 }
 
-#read {
+/* Hero Section*/
+.welcome {
     position: relative;
-    top:300px;
+    margin-top:300px;
     bottom: 50px;
     background-color: rgb(230, 230, 250, 0.8);
     color: black;
     margin-left: 200px;
-    text-align: left;
+    text-align: center;
     padding: 50px;
     margin-right: 20px;
+    justify-content:space-evenly;
+    font-size: 2.5em;
 }
 
 /* Footer */
@@ -80,4 +85,3 @@ footer {
     list-style-type: none;
     color: black;
 }
-
